@@ -79,3 +79,53 @@ input[type="submit"]{
     margin: 0.75rem 3.25rem ;
 
 }
+
+@media only screen and (max-width: 600px) {
+    .container{
+        display:flex;
+        flex-direction: column-reverse;
+    background-image: url(/newsletter-sign-up-with-success-message-main/assets/images/illustration-sign-up-mobile.svg);
+background-repeat:no-repeat;
+height: 100vh;  
+top:-3rem ;
+position: relative;
+
+
+}
+body{
+    background-color: white;
+    height: 100vh;
+}
+    .image img{
+        display: none;
+        /* height: 40%;  */
+        /* padding-bottom:100rem; */
+       
+    }
+    
+    .text h1{
+        margin-top: 10rem;
+        width: 100%;
+    }
+    .text .main-p{
+        max-width:100%;
+        width: 90%;
+        font-size :1rem;}
+
+    .text{
+        width: 90%;
+        margin-right: auto;
+        margin-left: auto;
+    
+    }
+    .text .p-li{
+        font-size :1rem;
+        width: 90%;}
+    }
+    form{
+        width: 90%;
+        margin-top: 2rem;
+    }
+    
+    
+   
