@@ -1,3 +1,6 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Kumbh+Sans:wght@400;700&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:wght@400;700&display=swap');
+
 *{
     padding: 0;
     margin: 0;
@@ -6,6 +9,10 @@
 
 body{
     background-color:  hsl(234, 29%, 20%);
+    font-family: 'Alfa Slab One', cursive;
+font-family: 'Kumbh Sans', sans-serif;
+font-family: 'Lobster Two', cursive;
+font-family: 'Roboto', sans-serif;
 }
 
 .main{
@@ -20,4 +27,55 @@ body{
         height: 25rem;
         background-color:white;
         border-radius:15px;
+        font-family: 'Roboto', sans-serif;
+        color: hsl(234, 29%, 20%);
+        display: flex;
+}
+
+.text{    width:60%;
+    height:80%;
+}
+.text h1{
+margin:2.5rem 0 1rem 1.75rem;
+}
+.main-p{
+    margin:1rem 1rem 1rem 1.75rem;;
+    font-size :0.75rem;
+    width:100%;
+  
+}
+.p-li{
+    font-size :0.75rem;
+    width:100%;
+    margin:0.5rem 0.5rem 1rem 1.75rem;
+} 
+label{
+    display: flex;
+    flex-direction: column;
+    margin:0 1rem 0.5rem 1.75rem;
+    width: 100%;
+}
+input{
+    padding: 0.6rem;
+    border-radius: 5px;
+    width: 100%;
+    
+}
+
+input[type="email"]{
+    border: solid 1px hsl(235, 18%, 26%);
+    font-size: 1rem;
+    margin:0 0 1rem 0;
+    width: 100%;
+}
+input[type="submit"]{
+    color: white;
+    background-color:hsl(234, 29%, 20%); 
+    border: none;
+    
+}
+.image img{
+    width:80%;
+    margin: 0.75rem 3.25rem ;
+
 }
