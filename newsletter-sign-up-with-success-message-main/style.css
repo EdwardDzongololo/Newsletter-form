@@ -143,18 +143,18 @@ position: relative;
     } */
 
     /* success message */
-     i{
-        /* margin: 1rem; */
+     .icon{
+        margin: 5rem;
     } 
     
      .main2{
         width: 100%;
-        display: flex;
+        display: none;
         height: 100vh;
         justify-content: center;
     } 
  .container2{
-        align-self: center;
+        margin:5rem auto;
         color: hsl(234, 29%, 20%);
         background-color: white;
         width: 25rem;
