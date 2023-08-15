@@ -80,67 +80,72 @@ input[type="submit"]{
 
 }
 
-/* @media screen and (min-width: 992px) {
-    .image img{
-        display: flex;
-    } */
-    
-  /* } */
-/* @media screen and(max-width:) {
+@media (max-width: 480px) {
+   *{
+    /* border: solid red 1px; */
+   }
+body{
+    background-color: white;
+}
 
+.main{
+ width: 100%;
+}
 .container{
-display:flex;
-flex-direction: column-reverse;
-min-height: 100vh;  
-top:-2rem ;
-position: relative;
-    
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100vw;
+        height: 100vh;
+        position: relative;
+        margin: 0;
+        margin-top: -10rem;
 }
 .image{
-    background-image: url(/newsletter-sign-up-with-success-message-main/assets/images/illustration-sign-up-mobile.svg);
-    background-repeat:no-repeat;
-    background-size: cover;
-    height: 80vh;  
-    max-width:100vw;
-    border-radius: 20px; border: solid red 1px;  
-} */
- /* body{ 
-    /* background-color: white; */
-    /* width: 50vw;  */
-/* }  */
-    /
-    .text h1{
-       /* margin: 3rem; */
-        /* width: 100%   ; */
-    }
-    .text .main-p{
-        /* max-width:100%; */
-        /* width: 90%;
-        font-size :1rem;} */
-/* 
-    .text{
-        width: 90%;
-        margin-right: auto;
-        margin-left: auto;border: solid red;
-      height: 5rem; display: none;
-    } */
-    /* .text .p-li{
-        font-size :1rem;
-        width: 90%;}
-    } */
-    /* form{
-        width: 90%;
-        margin-top: 1.5rem;
-        margin-bottom:9rem;
-       
-    } */
-    /* input{
-/* padding: 1rem 0.5rem; */
-    }  */
+width: 100%;
+padding: 0;
+margin-top: -100px;
+}
+/* .image img{ */
+    /* display: none; */
+  
 
-    /* label{
-        font-size :1rem;
-    } */
+.image img{
+    width:100%;
+    margin: 0;
+}
+.text .p-li ,.text .main-p{
+font-size: 1rem;
+width: 90%;
+}
+.text{
+    width: 100%;
+}
+form{
+    width: 90%; 
+}
+#email,#email-btn{
+    width: 100%;
+    padding: 1rem;
+    font-size: 1rem;
+}
+.main2{
+   /* margin: 5rem auto; */
+    display: none;
+    height: 100vh;
+    justify-content: center;
+    background-color:hsl(234, 29%, 20%) ;
+    margin-top: -5rem;
+    position: fixed;
+} 
+.container2{
+    top:5rem;
+    border-radius: 15px;
+    position: fixed;
+  margin-left: 2rem;
+}
+}
+
+
 
     /* success message */
      .icon{
@@ -154,23 +159,34 @@ position: relative;
         justify-content: center;
     } 
  .container2{
-        margin:5rem auto;
+        margin: 5rem auto;
         color: hsl(234, 29%, 20%);
         background-color: white;
         width: 25rem;
         height: 23rem;
         border-radius: 15px;
-        border: red solid 2px; 
-    } 
-    
+      
+ }
     .container2 h1, .container2 p{
     max-width: 90%;
     margin: 1rem auto;  
     }
-    .btn{
+    button{
         margin: 1rem auto;
         display: flex;
-    
+    padding: 1rem 2rem 1rem 7rem;
+    background-color:hsl(234, 29%, 20%) ;
+    color:white;
+    font-weight: 400;
+    border: none;
+    width: 85%;
+    border-radius: 5px;
     } 
+    input[type="submit"]:hover,button:hover{
+        background-color:hsl(4, 100%, 67%);
+    }
+    span{
+        font-weight:bold;
+    }
     
 

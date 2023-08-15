@@ -11,7 +11,7 @@ dashBoard.style.display='none'
 successMessage.style.display='block'
     let successMessageParagraph=document.getElementById("paragraph");
     successMessageParagraph.innerHTML=`
-    <p id="paragraph">A confirmation email has been sent to ${emailadress}. 
+    <p id="paragraph">A confirmation email has been sent to <span>${emailadress}</span>. 
       Please open it and click the button inside to confirm your subscription.</p>
       
  `
